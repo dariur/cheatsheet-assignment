@@ -1,0 +1,69 @@
+header {
+        background-color: #A9A9A9;
+        bottom: 0;
+        width: 100%;
+        height: 6rem;
+        padding: 25px 25px 25px 25px;
+  
+}
+#header {
+        color: white;
+        text-align: center;
+        font: 20px Arial, sans-serif;
+        line-height: 3rem;
+}
+footer {
+        background-color: #A9A9A9;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        display: table-row;
+} 
+.footer {
+        text-align: center;
+        color: white;
+}
+.first-table {
+        margin-left:auto; 
+        margin-right:auto;
+        font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+        border-collapse: collapse;
+}
+  .title {
+        text-align: center;
+}
+
+.floatLeft { 
+            width: 45%; 
+            padding: 10px 30px 40px 30px;
+            float: left;
+            border-collapse: collapse;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.floatRight {
+            width: 45%; 
+            padding: 10px 30px 40px 30px;
+            float: right;
+          border-collapse: collapse;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.container { 
+            overflow: hidden; 
+            display: inline-block;
+}
+td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+}
+tr:nth-child(even){
+            background-color: #f2f2f2
+}
+th {
+            background-color: #A9A9A9;
+            color: white;
+}       
+
+
+ 
